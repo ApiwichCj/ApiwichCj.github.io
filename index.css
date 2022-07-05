@@ -224,10 +224,4 @@ html,body {
     /* background-color: nth($colors, 1); */
     overflow: hidden;
     text-indent: -1000px;
-    
-    @for $i from 1 through length($colors) {
-      &:nth-child(#{$i*2}) {
-        background-color: nth($colors, $i);
-      }
-    }
   }
