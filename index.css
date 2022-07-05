@@ -218,16 +218,11 @@ html,body {
   dt {
     margin: 0;
     padding: 1rem 0;
-     &:first-child {
-      padding-top: 0;
-    }
-    &:after {
       width: 100%;
       background-color: #e0e0e0;
       height: 0.5rem;
       content: "";
       display: block;
-    }
   }
 
   dd {
