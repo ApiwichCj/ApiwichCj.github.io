@@ -193,3 +193,25 @@ height: auto;
 cursor: pointer;
 max-width: 100%;
 }
+
+.nav li:hover, .nav li:nth-child(1) {
+  color: #8d2424;
+  border-bottom: 2px solid #533e3e;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column-reverse;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1pxsolidrgba(0,0,0,.125);
+  border-radius: .25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+}
